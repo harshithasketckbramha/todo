@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Button, ButtonGroup} from 'react-bootstrap'
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
 
 function Todo() {
@@ -58,10 +57,9 @@ setdata(deleteItem)
 
   return (
     <div>
-     
         <Row>
             <Form.Group as={Col} md="5" className='m-auto' >
-              <Form.Label>Todo</Form.Label>
+              <Form.Label className='text'>Todo</Form.Label>
               <Form.Control
                 type="text"
                 name="todo"

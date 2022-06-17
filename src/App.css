@@ -5,17 +5,23 @@
 }
 
 body{
-  background: linear-gradient(to right,red, rgb(162, 136, 136), rgba(255,0,0,1) );
+  background: linear-gradient(to right,rgb(186, 53, 53), rgb(162, 136, 136), rgb(186, 53, 53) );
 }
 .contain{
   display: flex;
   justify-content: center;
-background-color: bisque;
+background-color: rgb(228, 239, 242);
 border: 2px solid black;
 display: inline-block;
 width: 20%;
+height: 5vh;
 margin-left: 35%;
 margin-top: 2%;
- 
+padding: 2px;
+}
+
+.text{
+  font-size:30px;
+  font-weight: 500;
 }
 
